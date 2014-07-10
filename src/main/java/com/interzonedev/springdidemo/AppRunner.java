@@ -25,7 +25,8 @@ public class AppRunner {
                     "bazValue");
             System.out.println("implementingBean1 = " + implementingBean1);
 
-            // TODO - How do I let Spring dependency inject the first 2 constructor arguments?
+            // TODO - How can Spring dependency inject the first 2 out of 3 constructor arguments when creating an
+            // ImplementingBean instance?
             ImplementingBean implementingBean2 = (ImplementingBean) appCtx.getBean("implementingBean", "bazValue");
             System.out.println("implementingBean2 = " + implementingBean2);
         }
