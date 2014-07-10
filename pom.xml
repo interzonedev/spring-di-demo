@@ -13,8 +13,20 @@
     <description>
         Very small demo app to demonstrate Spring dependency injection.
     </description>
-    <url>https://github.com/interzonedev/???</url>
+    <url>https://github.com/interzonedev/springdidemo</url>
     <inceptionYear>2014</inceptionYear>
+
+    <developers>
+        <developer>
+            <name>Mark Markarian</name>
+            <email>mark@interzonedev.com</email>
+            <url>http://interzonedev.com</url>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-8</timezone>
+        </developer>
+    </developers>
 
     <properties>
         <spring.version>4.0.5.RELEASE</spring.version>
