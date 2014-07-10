@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run the main method of the com.interzonedev.springdidemo.AppRunner class.
+sh target/bin/apprunner
